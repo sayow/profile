@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  background-color:#F8ECD1;
+}
+
+.conteiner{
+  width: 700px;
+  margin: 40px auto;
+}
+.card{
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+h1{
+  color: #85586F;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300px;
+  font-size: 30px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 176px;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: #AC7D88;
+  font-size: 17px;
+  font-weight: 300px;
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a{
+  font-family: 'Open Sans', sans-serif;
+  color: #85586F;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400px;
+}
+
+.btn-pinky{
+  background-color: #DEB6AB;
+  color: #AC7D88;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #DEB6AB;
+  background-color: #AC7D88;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #AC7D88;
+  text-decoration: none;
+  font-weight: 700px;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 30px;
+}
+
+.list-inline li {
+  display:inline;
+  margin: 5px;
+  padding: 5px;
+}
+
+.list-inline a {
+  font-size: 35px;
+}
+
+#list-inline > li > a {
+  color:#AC7D88;
+}
+
+#list-inline > li > a:hover {
+  color: #DEB6AB;
+}
